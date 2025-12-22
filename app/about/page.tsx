@@ -39,7 +39,7 @@ export default function AboutPage() {
               <img
                 src="/professional-filmmaker-portrait-camera.jpg"
                 alt="Danetto"
-                className="w-80 h-80 rounded-lg object-cover border-4 border-cyan-500/20"
+                className="w-80 h-80 rounded-lg object-cover border-4 border-gold-500/20"
               />
             </div>
             <div>
@@ -80,7 +80,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="text-center border-border/50">
               <CardContent className="pt-6">
-                <Camera className="h-12 w-12 mx-auto mb-4 text-cyan-500" />
+                <Camera className="h-12 w-12 mx-auto mb-4 text-gold-500" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Quality</h3>
                 <p className="text-sm text-muted-foreground">
                   Every frame matters, and I'm committed to delivering exceptional quality
@@ -90,7 +90,7 @@ export default function AboutPage() {
 
             <Card className="text-center border-border/50">
               <CardContent className="pt-6">
-                <Heart className="h-12 w-12 mx-auto mb-4 text-cyan-500" />
+                <Heart className="h-12 w-12 mx-auto mb-4 text-gold-500" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Passion</h3>
                 <p className="text-sm text-muted-foreground">
                   I pour my heart into every project, treating each one as a work of art
@@ -100,7 +100,7 @@ export default function AboutPage() {
 
             <Card className="text-center border-border/50">
               <CardContent className="pt-6">
-                <Zap className="h-12 w-12 mx-auto mb-4 text-cyan-500" />
+                <Zap className="h-12 w-12 mx-auto mb-4 text-gold-500" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Innovation</h3>
                 <p className="text-sm text-muted-foreground">
                   Always exploring new techniques and staying ahead of industry trends
@@ -110,7 +110,7 @@ export default function AboutPage() {
 
             <Card className="text-center border-border/50">
               <CardContent className="pt-6">
-                <Award className="h-12 w-12 mx-auto mb-4 text-cyan-500" />
+                <Award className="h-12 w-12 mx-auto mb-4 text-gold-500" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Excellence</h3>
                 <p className="text-sm text-muted-foreground">
                   Striving for excellence in every aspect of production and delivery
@@ -127,7 +127,7 @@ export default function AboutPage() {
             {skills.map((skill) => (
               <span
                 key={skill}
-                className="px-4 py-2 bg-cyan-500/10 text-cyan-500 rounded-full text-sm font-medium border border-cyan-500/20"
+                className="px-4 py-2 bg-gold-500/10 text-gold-500 rounded-full text-sm font-medium border border-gold-500/20"
               >
                 {skill}
               </span>

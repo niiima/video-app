@@ -12,7 +12,7 @@ interface VideoCardProps {
 export default function VideoCard({ video, onClick }: VideoCardProps) {
   return (
     <Card
-      className="group cursor-pointer overflow-hidden border-border/50 hover:border-cyan-500/50 transition-all duration-300"
+      className="group cursor-pointer overflow-hidden border-border/50 hover:border-gold-500/50 transition-all duration-300"
       onClick={onClick}
     >
       <div className="relative aspect-video overflow-hidden bg-muted">
@@ -22,7 +22,7 @@ export default function VideoCard({ video, onClick }: VideoCardProps) {
           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-          <div className="flex h-16 w-16 items-center justify-center rounded-full bg-cyan-500/90 backdrop-blur-sm">
+          <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gold-500/90 backdrop-blur-sm">
             <Play className="h-8 w-8 text-white fill-white ml-1" />
           </div>
         </div>
@@ -32,7 +32,7 @@ export default function VideoCard({ video, onClick }: VideoCardProps) {
         </div>
       </div>
       <CardContent className="p-4">
-        <h3 className="font-semibold text-foreground mb-1 line-clamp-1 group-hover:text-cyan-500 transition-colors">
+        <h3 className="font-semibold text-foreground mb-1 line-clamp-1 group-hover:text-gold-500 transition-colors">
           {video.title}
         </h3>
         <p className="text-sm text-muted-foreground line-clamp-2 mb-3">{video.description}</p>

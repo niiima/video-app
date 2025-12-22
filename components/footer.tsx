@@ -14,16 +14,16 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-sm font-semibold text-foreground">Navigation</h4>
             <nav className="flex flex-col gap-2">
-              <Link href="/" className="text-sm text-muted-foreground hover:text-cyan-500 transition-colors">
+              <Link href="/" className="text-sm text-muted-foreground hover:text-gold-500 transition-colors">
                 Home
               </Link>
-              <Link href="/videos" className="text-sm text-muted-foreground hover:text-cyan-500 transition-colors">
+              <Link href="/videos" className="text-sm text-muted-foreground hover:text-gold-500 transition-colors">
                 Videos
               </Link>
-              <Link href="/about" className="text-sm text-muted-foreground hover:text-cyan-500 transition-colors">
+              <Link href="/about" className="text-sm text-muted-foreground hover:text-gold-500 transition-colors">
                 About
               </Link>
-              <Link href="/contact" className="text-sm text-muted-foreground hover:text-cyan-500 transition-colors">
+              <Link href="/contact" className="text-sm text-muted-foreground hover:text-gold-500 transition-colors">
                 Contact
               </Link>
             </nav>
@@ -34,19 +34,19 @@ export default function Footer() {
             <nav className="flex flex-col gap-2">
               <Link
                 href="/videos?category=Reels"
-                className="text-sm text-muted-foreground hover:text-cyan-500 transition-colors"
+                className="text-sm text-muted-foreground hover:text-gold-500 transition-colors"
               >
                 Reels
               </Link>
               <Link
                 href="/videos?category=Commercials"
-                className="text-sm text-muted-foreground hover:text-cyan-500 transition-colors"
+                className="text-sm text-muted-foreground hover:text-gold-500 transition-colors"
               >
                 Commercials
               </Link>
               <Link
                 href="/videos?category=Music Videos"
-                className="text-sm text-muted-foreground hover:text-cyan-500 transition-colors"
+                className="text-sm text-muted-foreground hover:text-gold-500 transition-colors"
               >
                 Music Videos
               </Link>
@@ -60,7 +60,7 @@ export default function Footer() {
                 href="https://youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-cyan-500 transition-colors"
+                className="text-muted-foreground hover:text-gold-500 transition-colors"
               >
                 <Youtube className="h-5 w-5" />
                 <span className="sr-only">YouTube</span>
@@ -69,7 +69,7 @@ export default function Footer() {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-cyan-500 transition-colors"
+                className="text-muted-foreground hover:text-gold-500 transition-colors"
               >
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
@@ -78,14 +78,14 @@ export default function Footer() {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-cyan-500 transition-colors"
+                className="text-muted-foreground hover:text-gold-500 transition-colors"
               >
                 <Twitter className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </a>
               <a
                 href="mailto:hello@danetto.com"
-                className="text-muted-foreground hover:text-cyan-500 transition-colors"
+                className="text-muted-foreground hover:text-gold-500 transition-colors"
               >
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>

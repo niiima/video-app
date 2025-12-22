@@ -64,7 +64,7 @@ export default function ContactPage() {
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
-                      <Mail className="h-6 w-6 text-cyan-500" />
+                      <Mail className="h-6 w-6 text-gold-500" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Email</h3>
@@ -78,7 +78,7 @@ export default function ContactPage() {
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
-                      <Phone className="h-6 w-6 text-cyan-500" />
+                      <Phone className="h-6 w-6 text-gold-500" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Phone</h3>
@@ -92,7 +92,7 @@ export default function ContactPage() {
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
-                      <MapPin className="h-6 w-6 text-cyan-500" />
+                      <MapPin className="h-6 w-6 text-gold-500" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Location</h3>
@@ -155,7 +155,7 @@ export default function ContactPage() {
                         )}
                       />
 
-                      <Button type="submit" className="w-full bg-cyan-500 hover:bg-cyan-600" disabled={isSubmitting}>
+                      <Button type="submit" className="w-full bg-gold-500 hover:bg-gold-700" disabled={isSubmitting}>
                         {isSubmitting ? "Sending..." : "Send Message"}
                       </Button>
                     </form>

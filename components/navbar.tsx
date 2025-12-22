@@ -35,9 +35,9 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <Link
             href="/"
-            className="flex items-center gap-2 text-xl font-bold text-foreground hover:text-cyan-500 transition-colors"
+            className="flex items-center gap-2 text-xl font-bold text-foreground hover:text-gold-500 transition-colors"
           >
-            <Play className="h-6 w-6 fill-cyan-500 text-cyan-500" />
+            <Play className="h-6 w-6 fill-gold-500 text-gold-500" />
             Danetto
           </Link>
 
@@ -48,8 +48,8 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-cyan-500",
-                  pathname === link.href ? "text-cyan-500" : "text-muted-foreground",
+                  "text-sm font-medium transition-colors hover:text-gold-500",
+                  pathname === link.href ? "text-gold-500" : "text-muted-foreground",
                 )}
               >
                 {link.label}
@@ -59,7 +59,7 @@ export default function Navbar() {
               variant="ghost"
               size="icon"
               onClick={handleThemeToggle}
-              className="text-muted-foreground hover:text-cyan-500"
+              className="text-muted-foreground hover:text-gold-500"
             >
               {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
               <span className="sr-only">Toggle theme</span>
@@ -82,8 +82,8 @@ export default function Navbar() {
                   href={link.href}
                   onClick={handleLinkClick}
                   className={cn(
-                    "text-sm font-medium transition-colors hover:text-cyan-500",
-                    pathname === link.href ? "text-cyan-500" : "text-muted-foreground",
+                    "text-sm font-medium transition-colors hover:text-gold-500",
+                    pathname === link.href ? "text-gold-500" : "text-muted-foreground",
                   )}
                 >
                   {link.label}
@@ -93,7 +93,7 @@ export default function Navbar() {
                 variant="ghost"
                 size="sm"
                 onClick={handleThemeToggle}
-                className="justify-start text-muted-foreground hover:text-cyan-500"
+                className="justify-start text-muted-foreground hover:text-gold-500"
               >
                 {theme === "dark" ? (
                   <>

@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
+// import { Geist, Geist_Mono } from "next/font/google"
+import { hobostd } from "@/lib/fonts";
 import { Analytics } from "@vercel/analytics/next"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
@@ -8,8 +9,8 @@ import StoreProvider from "@/lib/store/store-provider"
 import { Toaster } from "@/components/ui/toaster"
 import "./globals.css"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+// const _geist = Geist({ subsets: ["latin"] })
+// const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Danetto - Freelance Video Creator",
@@ -41,7 +42,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`font-sans antialiased`}>
+      <body className={`${hobostd.variable} antialiased`}>
         <StoreProvider>
           <div className="flex min-h-screen flex-col">
             <Navbar />

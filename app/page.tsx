@@ -56,19 +56,19 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background z-10" />
-        <img
+        {/* <img
           src="/cinematic-video-production-camera-gear.jpg"
           alt="Hero background"
           className="absolute inset-0 w-full h-full object-cover"
-        />
+        /> */}
         <div className="container mx-auto px-4 z-20 text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 text-balance">
-            Danetto – Freelance Video Creator
+            Danetto – Filmmaker & Actor
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto text-balance">
             Crafting stories through motion
           </p>
-          <Button asChild size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white">
+          <Button asChild size="lg" className="bg-gold-500 hover:bg-gold-700 text-white">
             <Link href="/videos">
               View Portfolio
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -83,21 +83,21 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="text-center border-border/50">
               <CardContent className="pt-6">
-                <Video className="h-12 w-12 mx-auto mb-4 text-cyan-500" />
+                <Video className="h-12 w-12 mx-auto mb-4 text-gold-500" />
                 <h3 className="text-3xl font-bold text-foreground mb-2">50+</h3>
                 <p className="text-muted-foreground">Projects Completed</p>
               </CardContent>
             </Card>
             <Card className="text-center border-border/50">
               <CardContent className="pt-6">
-                <Users className="h-12 w-12 mx-auto mb-4 text-cyan-500" />
+                <Users className="h-12 w-12 mx-auto mb-4 text-gold-500" />
                 <h3 className="text-3xl font-bold text-foreground mb-2">30+</h3>
                 <p className="text-muted-foreground">Happy Clients</p>
               </CardContent>
             </Card>
             <Card className="text-center border-border/50">
               <CardContent className="pt-6">
-                <Award className="h-12 w-12 mx-auto mb-4 text-cyan-500" />
+                <Award className="h-12 w-12 mx-auto mb-4 text-gold-500" />
                 <h3 className="text-3xl font-bold text-foreground mb-2">5+</h3>
                 <p className="text-muted-foreground">Years Experience</p>
               </CardContent>
@@ -147,7 +147,7 @@ export default function HomePage() {
               <img
                 src="/professional-filmmaker-portrait.png"
                 alt="Danetto"
-                className="w-64 h-64 rounded-full object-cover border-4 border-cyan-500/20"
+                className="w-64 h-64 rounded-full object-cover border-4 border-gold-500/20"
               />
             </div>
             <div>

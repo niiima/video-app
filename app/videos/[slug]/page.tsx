@@ -102,7 +102,7 @@ export default async function VideoPage({ params }: { params: Promise<{ slug: st
                   <Eye className="h-4 w-4" />
                   {video.views.toLocaleString()} views
                 </div>
-                <span className="px-3 py-1 bg-cyan-500/10 text-cyan-500 rounded-full text-xs font-medium">
+                <span className="px-3 py-1 bg-gold-500/10 text-gold-500 rounded-full text-xs font-medium">
                   {video.category}
                 </span>
               </div>
@@ -130,7 +130,7 @@ export default async function VideoPage({ params }: { params: Promise<{ slug: st
                   <form className="space-y-4">
                     <Input placeholder="Your name" />
                     <Textarea placeholder="Share your thoughts..." className="min-h-[100px]" />
-                    <Button type="submit" className="bg-cyan-500 hover:bg-cyan-600">
+                    <Button type="submit" className="bg-gold-500 hover:bg-gold-700">
                       Post Comment
                     </Button>
                   </form>
