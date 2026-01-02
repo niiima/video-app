@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 export const hobostd = localFont({
     src: [
         {
-            path: "../public/fonts/hobostd.otf",
+            path: "../public/fonts/HoboStd.woff",
             weight: "400",
             style: "normal",
         },
