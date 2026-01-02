@@ -153,7 +153,7 @@ export default function HomePage() {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">About Me</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                I'm a passionate freelance video creator with over 5 years of experience in crafting compelling visual
+                I'm a passionate freelance video creator with over 10 years of experience in crafting compelling visual
                 stories. From cinematic reels to brand commercials and music videos, I bring creativity and technical
                 expertise to every project.
               </p>
