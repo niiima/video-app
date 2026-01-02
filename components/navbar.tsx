@@ -35,15 +35,13 @@ export default function Navbar() {
   }
 
   return (
-    <header className="fixed top-[10%] inset-x-0 z-50 flex justify-center pointer-events-none">
-      <nav
-        className="
-          pointer-events-auto
-          flex items-center gap-3
+    <header className="fixed top-[4%] inset-x-0 z-50 flex justify-center pointer-events-none">
+      <nav className="pointer-events-auto flex items-center gap-3 w-fit
+         
           rounded-2xl
           bg-black/20 backdrop-blur-xl
           border border-white/10
-          px-4 py-3
+          px-4 py-1
           shadow-[0_10px_40px_rgba(0,0,0,0.4)]
         "
       >
@@ -101,7 +99,20 @@ export default function Navbar() {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 mt-3 rounded-2xl bg-black/30 backdrop-blur-xl border border-white/10 p-4">
+          <div className="
+    md:hidden
+    fixed
+    left-1/2
+    top-[calc(10%+4.5rem)]
+    w-[min(92vw,420px)]
+    -translate-x-1/2
+    rounded-2xl
+    bg-black/40
+    backdrop-blur-xl
+    border border-white/10
+    p-4
+    shadow-[0_20px_60px_rgba(0,0,0,0.6)]
+  ">
             <div className="flex flex-col gap-3">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href
@@ -115,10 +126,10 @@ export default function Navbar() {
                     <Button
                       variant="ghost"
                       className={cn(
-                        "w-full justify-start tracking-widest",
+                        "w-full justify-center text-base tracking-widest py-4",
                         isActive
                           ? "text-yellow-300 bg-white/10"
-                          : "text-white/70 hover:text-yellow-300 hover:bg-white/10"
+                          : "text-white/80 hover:text-yellow-300 hover:bg-white/10"
                       )}
                     >
                       {link.label}
@@ -130,19 +141,9 @@ export default function Navbar() {
               <Button
                 variant="ghost"
                 onClick={handleThemeToggle}
-                className="justify-start text-white/70 hover:text-yellow-300"
+                className="w-full justify-center text-white/70 hover:text-yellow-300 py-4"
               >
-                {theme === "dark" ? (
-                  <>
-                    <Sun className="mr-2 h-4 w-4" />
-                    Light Mode
-                  </>
-                ) : (
-                  <>
-                    <Moon className="mr-2 h-4 w-4" />
-                    Dark Mode
-                  </>
-                )}
+                {theme === "dark" ? "LIGHT MODE" : "DARK MODE"}
               </Button>
             </div>
           </div>
