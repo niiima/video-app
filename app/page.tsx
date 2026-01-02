@@ -144,11 +144,11 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-12 items-center">
             <div className="flex-shrink-0">
-              <img
+              {/* <img
                 src="/professional-filmmaker-portrait.png"
                 alt="Danetto"
                 className="w-64 h-64 rounded-full object-cover border-4 border-gold-500/20"
-              />
+              /> */}
             </div>
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">About Me</h2>
