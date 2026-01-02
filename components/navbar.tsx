@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Moon, Sun, Menu, X, Play } from "lucide-react"
+import { Moon, Sun, Menu, X, Play, Home, Film } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useAppDispatch, useAppSelector } from "@/lib/store/hooks"
 import {
@@ -50,8 +50,8 @@ export default function Navbar() {
           href="/"
           className="mr-2 flex items-center gap-2 text-lg font-extrabold tracking-widest text-yellow-300 drop-shadow"
         >
-          {/* <Play className="h-5 w-5 fill-yellow-300" />
-          DANETTO */}
+          <Home className="h-5 w-5 fill-yellow-300" />
+
         </Link>
 
         {/* Desktop Navigation */}

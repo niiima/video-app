@@ -122,7 +122,7 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="absolute bottom-0 inset-x-0 py-6 text-center text-white/70 text-sm tracking-wide">
-        developed by <span className="text-white">xxx.dev</span> & danetto © 2026
+        developed by <span className="text-white">nivnet</span> & danetto © 2026
       </footer>
     </div>
   );
